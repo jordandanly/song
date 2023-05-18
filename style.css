@@ -1,3 +1,44 @@
-body {
-    background: rgb(89, 255, 0);
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Foldit&display=swap');
+
+
+:root {
+  --color1 : #a41515;
+  --color2 : tan;
+  --headingFont :'Foldit', cursive;
+  --bodyFont :'Chakra Petch', sans-serif;
+}
+
+h1 {
+  font-family: var(--headingFont);
+  font-size: 70px;
+}
+
+p {
+  font-family: var(--bodyFont);
+}
+
+a:link,
+a:visited {
+  color: var(--color2);
+  text-decoration: none;
+  
+  letter-spacing: 7px;
+}
+a:hover, 
+  
+a:active {
+  border-bottom: 4px solid var(--color1);
+}
+  
+main {
+  background: beige;
+  border: 12px solid var(--color2);
+  
+  width: 50%;
+  margin: 30px auto 0 auto;
+  padding: 24px;
+}
+
+audio{
+  width: 100%;
 }
