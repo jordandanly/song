@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Arsenal:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Foldit&display=swap');
 
 
 :root {
-  --color1 : #595350;
-  --color2 : #B59187;
-  --backgroundColor: #F6F3EE;
-  --headingFont : 'Arsenal', sans-serif;
-  --bodyFont :'Arsenal', sans-serif;
+  --color1 : #a41515;
+  --color2 : tan;
+  --headingFont :'Foldit', cursive;
+  --bodyFont :'Chakra Petch', sans-serif;
+}
 
 h1 {
   font-family: var(--headingFont);
@@ -31,7 +31,7 @@ a:active {
 }
   
 main {
-  background: var(--backgroundColor);
+  background: beige;
   border: 12px solid var(--color2);
   
   width: 50%;
