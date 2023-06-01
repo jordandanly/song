@@ -2,7 +2,7 @@
 
 
 :root {
-  --color1 : #a41515;
+  --color1 : #f0ead9;
   --color2 : tan;
   --headingFont :'Foldit', cursive;
   --bodyFont :'Chakra Petch', sans-serif;
@@ -31,7 +31,8 @@ a:active {
 }
   
 main {
-  background: beige;
+  
+  background: var(--color1);
   border: 12px solid var(--color2);
   
   width: 50%;
@@ -43,5 +44,5 @@ audio{
   width: 100%;
 }
 
-/* make a print stylesheet */
+
 
