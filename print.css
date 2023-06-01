@@ -2,9 +2,9 @@
     
     body {
         /* serif font for easier reading */
-        font-family: serif;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         /* increase font size */
-        font-size: 1.25em;
+        font-size: 1em;
 }
 
     /* printer anchor links */
@@ -13,13 +13,13 @@
     }
 
     /* turn paragraphs into colums */
-    .face p {
-        columns: 2;
+    figure {
+        columns: 1;
     }
 
     @page {
         /* reset page margins */
-        margin: .25in;
+        margin: .5in;
     }
 
 }
