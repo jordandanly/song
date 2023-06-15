@@ -1,16 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Foldit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
 
 
 :root {
   --color1 : #f0ead9;
   --color2 : tan;
-  --headingFont :'Foldit', cursive;
+  --headingFont :'Bungee Inline', cursive;
   --bodyFont :'Chakra Petch', sans-serif;
 }
 
 h1 {
   font-family: var(--headingFont);
   font-size: 70px;
+  text-align: center;
 }
 
 p {
